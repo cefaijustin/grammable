@@ -57,8 +57,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
 end
 
-gem 'bootstrap-sass'
-gem 'popper_js', '1.11.1'
+gem 'bootstrap', '4.1.0'
+#gem 'popper_js', '1.11.1'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
